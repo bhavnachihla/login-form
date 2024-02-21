@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: rgb(203, 227, 236);
+    box-sizing: border-box;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.form-box{
+    width:45%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding:20px 28px;
+    margin-inline: 20px;
+}
+
+.form-box header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: khaki;
+    font-size: 30px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(235, 233, 233);
+    border: none;
+}
+
+
+#forgotpassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn{
+    height:50px;
+    width:100%;
+    box-sizing: border-box;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#btn:hover{
+    /* background-color: rgb(44, 44, 106);*/
+    
+    background-color: darkblue;
+    color:whitesmoke;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+img{
+    height:50px;
+    width:50px;
+   
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border:none
+}
+
+img:hover{
+    opacity: 0.9;
+
+}
+
+.signup{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+#signupBtn{
+        
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(95,2,103);
+}
+
+.signup a:hover{
+    background-color: aliceblue;
+}
+
+
+    
+    
+
+@media screen and (max-width:700px){
+    .form-box{
+        width:100%;
+    }
+}
